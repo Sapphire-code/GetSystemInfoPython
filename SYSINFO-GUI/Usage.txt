@@ -1,0 +1,9 @@
+// This is how to print info about your system in the console
+// For the GUI please check main.pyw
+import platform
+
+print("OS NAME: " + platform.system())
+print("OS RELEASE: " + platform.release())
+print("SYSTEM PROCESSOR: " + platform.processor())
+print("MACHINE: " + platform.machine())
+
